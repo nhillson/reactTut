@@ -1,25 +1,10 @@
 import './App.css';
-import Info from "./info.js";
-
+import SearchBar from "./SearchBar"
 function App() {
   return (
     <div className="App">
-      <Info />
-      <AddItems />
-      <AddItems />
-      <AddItems />
+      <SearchBar />
     </div>
-  );
-}
-
-
-
-function AddItems() {
-  return (
-    <form>
-      <label for="text-form">Type Something: </label>
-      <input type="text" id="text-form" />
-    </form>
   );
 }
 
